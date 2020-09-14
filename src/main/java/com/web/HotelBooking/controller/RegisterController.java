@@ -83,15 +83,13 @@ import com.web.HotelBooking.service.RoomTypeService;
 	        
 	        @RequestMapping ("/login-admin")
 	    	public String loginUser(@ModelAttribute RegisterModel user, HttpServletRequest request) {
-	    		if((registerservice.findByUsernameAndPassword(user.getEmail(), user.getPassword())).isEmpty()) {
-	    			System.out.print("Hi");
+	        	if(registerservice.findByUsernameAndPassword(user.getFirstName(), user.getPassword())!=null) {
+	    			return "homepageadmin.jsp";
+	    		}
+	    		else {
 	    			request.setAttribute("error", "Invalid Username or Password");
 	    			request.setAttribute("mode", "MODE_LOGIN");
 	    			return "welcomepageadmin.jsp";
-	    		}
-	    		else {
-	    			
-	    			return "homepageadmin.jsp";
 	    		}
 	    	}
 	        

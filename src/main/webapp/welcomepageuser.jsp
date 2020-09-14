@@ -128,22 +128,8 @@
 		</c:when>
 
 <c:when test="${mode=='S_ROOM' }">
-<div role="navigation">
-		<div class="navbar navbar-inverse">
-			<a href="/welcome" class="navbar-brand">Tecno-Tab</a>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<!-- <li><a href="/login">Login Admin</a></li>
-					<li><a href="/register">New Registration</a></li>  -->
-					<li><a href="/show-users">All Users</a></li>
-					<li><a href="/viewbookingreport">Viewreport</a></li>
-					<li><a href="/logout">Login Out</a> 
-				</ul>
-			</div>
-		</div>
-	</div>
 <div class="container" style="margin:50px">
-    <div class="row text-center"><strong> Room Availability </strong></div>
+    <div class="row text-center"><strong> User Details</strong></div>
     <div class="row" style="border:1px solid green;padding:10px">
     <table class="table table-striped table-bordered">
 						<thead>
@@ -171,24 +157,9 @@
 </c:when>
 
 <c:when test="${mode=='ALL_BOOKING' }">
-<div role="navigation">
-		<div class="navbar navbar-inverse">
-			<a href="/welcome" class="navbar-brand">Tecno-Tab</a>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<!-- <li><a href="/login">Login Admin</a></li>
-					<li><a href="/register">New Registration</a></li>  -->
-					<li><a href="/show-users">All Users</a></li>
-					<li><a href="/viewbookingreport">Viewreport</a></li>
-					<li><a href="/logout">Login Out</a> 
-				</ul>
-			</div>
-		</div>
-	</div>
 <div class="container" style="margin:50px">
     <div class="row text-center"><strong> User Details</strong></div>
     <div class="row" style="border:1px solid green;padding:10px">
-    
     <table class="table table-striped table-bordered">
 						<thead>
 							<tr>
@@ -324,7 +295,7 @@
 		</div>
 	</div>
 			<div class="container text-center">
-				<h3>Search Hotels for date </h3>
+				<h3>User Login</h3>
 				<hr>
 				<form class="form-horizontal" method="POST" action="/searchroom">
 					

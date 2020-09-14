@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="sat, 01 Dec 2001 00:00:00 GMT">
-<title>Kritika Hotels | home</title>
+<title>tecno-tab | home</title>
 <link href="static/css/bootstrap.min.css" rel="stylesheet">
 <link href="static/css/style.css" rel="stylesheet">
 <!--[if lt IE 9]>
@@ -41,12 +41,11 @@
 		<div class="alert alert-success">
 			<h4>Chill And Have a Look at hotel</h4>
 		</div>
-		<center><img src="static/images/267109124 (1).jpg" alt="Hotel Image" width="800" height="200";"></center>
-		<!--  <iframe width="400" height="200"
-			src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.booking.com%2Fhotel%2Fhn%2Freal-intercontinental-tegucigalpa.html&psig=AOvVaw2XsohoGsXNy_ZYmhb9b7GR&ust=1600189768314000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi5kYqS6esCFQAAAAAdAAAAABAD" frameborder="0"
-			allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+		<iframe width="400" height="200"
+			src="" frameborder="0"
+			allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			
-			
+			<p> It was fun right..... </p>
 			<div class="alert alert-success">
 			<h4>Room Book easily</h4>
 		</div>
@@ -54,7 +53,23 @@
 			src="" frameborder="0"
 			allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			
+			<p> This is 1st Session of the tutorial..... </p>
+			<div class="alert alert-success">
+			<h4>Have worlds best Food by best chefs </h4>
+		</div>
+		<iframe width="400" height="200"
+			src="" frameborder="0"
+			allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			
+			<p> This is 1st Session of the tutorial..... </p>
+			<!-- <div class="alert alert-success">
+			 <h4>Session 1: Spring Boot Tutorial</h4>
+		</div>
+		<iframe width="400" height="200"
+			src="https://www.youtube.com/embed/m0Xf6Bf6KFU" frameborder="0"
+			allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			
+			<p> This is 1st Session of the tutorial..... </p> -->
 	</div>
 
 	<!-- Optional JavaScript -->

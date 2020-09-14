@@ -52,15 +52,7 @@ public class RoomAddController {
 		roomtypeservice.update(u);  
 	}
 	
-	
-//	
-// all bookings from table bookings 
-//	@GetMapping(path = "/viewbookingreport")
-//	public ResponseEntity<?> bookings() {
-//		
-//        return new ResponseEntity<>(bookingService.bookings(), HttpStatus.OK);
-//        
-//	}
+	//
 	
 	@GetMapping("/viewbookingreport")  //here
 	public String bookings(HttpServletRequest request) {
